@@ -1,0 +1,48 @@
+.mfx-text-field {
+    -fx-background-color: transparent;
+    -fx-border-color: #355062;
+    -fx-text-fill: WHITE;
+}
+
+.mfx-text-field .mfx-floating-label {
+    -fx-text-fill: white;
+    -fx-font-size: 15;
+}
+
+.mfx-button {
+    -fx-background-radius: 20; /* Rounded corners */
+    -fx-background-color: #355062; /* Dark background color */
+    -fx-text-fill: white; /* Text color */
+    -fx-border-radius: 20; /* Rounded border */
+}
+
+.mfx-button:hover {
+    -fx-background-color: #637484; /* Darker background color on hover */
+}
+
+.label {
+    -fx-background-radius: 13;
+    -fx-background-color: #355062;
+    -fx-text-fill: white;
+    -fx-padding: 5;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 10, 0, 0, 0);
+}
+/* styles.css */
+
+/* Style for MFXDatePicker */
+.mfx-datepicker {
+    -fx-font-size: 12px; /* Adjust font size */
+    -fx-text-fill: Black; /* Set text color */
+    -fx-background-color: transparent; /* Set background color */
+}
+
+/* Style for MFXComboBox */
+.mfx-combobox {
+    -fx-font-size: 12px; /* Adjust font size */
+    -fx-text-fill: Black; /* Set text color */
+    -fx-background-color: #355062; /* Set background color */
+    -fx-prompt-text-fill: Black; /* Set prompt text color */
+}
+.mfx-datepicker .calendar-button {
+    -fx-background-radius: 50%;
+}

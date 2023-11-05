@@ -1,0 +1,193 @@
+
+.mfx-button {
+    -fx-text-fill: #fff; /* Set text color to white */
+    -fx-alignment: CENTER_LEFT;
+    -fx-background-color: transparent; /* Set button background color to transparent */
+
+}
+.mfx-button-logo {
+    -fx-alignment: CENTER;
+    -fx-background-color: transparent; /* Set button background color to transparent */
+}
+
+
+.mfx-button:hover {
+    -fx-background-color: #1976D2; /* Change color on hover */
+}
+
+
+
+.mfx-notification-center {
+    -fx-fill: #2196F3; /* Set icon color */
+    -fx-hover-fill: #1976D2; /* Set icon color on hover */
+    -fx-pref-width: 30; /* Set the preferred width */
+    -fx-pref-height: 30; /* Set the preferred height */
+}
+
+
+/* Style for the user avatar */
+.menu-button .label {
+    -fx-text-fill: #333; /* Set text color */
+}
+.mfx-button .image-view {
+    -fx-fit-width: 115; /* Set the width of the image */
+    -fx-fit-height: 30; /* Set the height of the image */
+}
+.left-vbox {
+    -fx-background-insets: 0 20 0 0, 0 20 0 0; /* Fill top-right and bottom-right corners with radius 20 */
+
+        -fx-background-color: #355062; /* Set background color */
+        -fx-background-radius: 0 30 30 0; /* Apply rounded corners */
+        -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.5), 20, 0, 0, 0); /* Add drop shadow with radius 20 */
+        -fx-border-color: transparent transparent transparent transparent; /* Set border color */
+        -fx-min-width: 268; /* Adjust minimum width as needed */
+    }
+
+.center-top-hbox {
+    -fx-background-insets: 20 0 0 0, 20 0 0 0; /* Fill top-right and bottom-right corners with radius 20 */
+    -fx-background-color: #355062; /* Set background color */
+    -fx-background-radius: 30 30 30 30; /* Apply rounded corners */
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.5), 20, 0, 0, 0); /* Add drop shadow with radius 20 */
+    -fx-border-color: transparent transparent transparent transparent; /* Set border color */
+    -fx-min-width: 268; /* Adjust minimum width as needed */
+}
+
+
+.hbox_leftTop {
+
+    -fx-background-radius: 0 30 0 0; /* Apply rounded corners to the top */
+    -fx-background-insets: 0 0 0 0; /* Fill left side with radius 20 */
+}
+
+
+.accordion {
+    -fx-padding: 20;
+}
+
+.titled-pane {
+    -fx-text-fill: #ffff;
+    -fx-background-color: transparent; /* Set background color to transparent */
+    -fx-border-color: transparent; /* Set border color to transparent */
+}
+
+.titled-pane > .title {
+    -fx-text-fill: #ffff;
+    -fx-background-color: transparent;
+    -fx-background-radius: 0; /* Remove rounded corners for titled panes */
+    -fx-border-color: transparent; /* Set border color to transparent */
+
+    -fx-font-size: 15; /* Set font size */
+}
+
+.titled-pane > .content {
+    -fx-padding: 15;
+    -fx-border-color: transparent; /* Set border color to transparent */
+
+    -fx-background-color: transparent; /* Set background color */
+    -fx-background-radius: 0; /* Remove rounded corners for titled panes */
+    -fx-text-fill: #fff; /* Set text color to white */
+    -fx-font-size: 12;/* Add padding to the content inside the titled pane */
+}
+
+
+.vbox_background_center {
+    -fx-background-color:   #637484;
+
+}
+/* Set the border color of the ScrollPane to black */
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+/* Set the background color of the ScrollPane content area to black */
+.scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+
+/* Set the background color of the ScrollBars to black */
+.scroll-pane .scroll-bar {
+    -fx-background-color: transparent;
+}
+
+
+/* Set the background and thumb colors of the scrollbar to black */
+.scroll-bar:vertical {
+    -fx-background-color: transparent;
+}
+
+/* Set the background and thumb colors of the scrollbar to black */
+.scroll-bar:horizontal {
+    -fx-background-color: transparent;
+}
+
+
+/* Make the text field transparent */
+.mfx-text-field {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent transparent white transparent;
+    -fx-border-width: 0 0 1 0; /* Top Right Bottom Left */
+    -fx-text-fill: white;
+}
+
+/* Set the floating text color to white */
+.mfx-text-field > .mfx-floating-label {
+    -fx-text-fill: white;
+}
+
+/* Set the text color to white */
+.mfx-text-field > .text-field {
+    -fx-text-fill: white;
+}
+
+.menu-button {
+    -fx-background-color: transparent;
+    -fx-background-radius: 30;
+
+}
+.menu-button:hover {
+    -fx-background-color: #1976D2; /* Slightly lighter on hover */
+}
+.menu-button .label {
+    -fx-text-fill: white;
+}
+
+.menu-button .menu-item {
+    -fx-text-fill: white; /* Set text color */
+    -fx-background-color: #333333; /* Set background color */
+}
+
+.menu-button .menu-item:selected {
+    -fx-background-color: #555555; /* Set background color on selection */
+}
+
+.menu-button .menu-item:hover {
+    -fx-background-color: #444444; /* Set background color on hover */
+}
+
+.center-buttons{
+    -fx-background-radius: 20; /* Set border radius for rounded corners */
+}
+.mfx-notification-center {
+    -fx-background-color: transparent;
+}
+
+.rounded-box {
+    -fx-background-radius: 20; /* Set the corner radius */
+    -fx-border-radius: 20; /* Set the border radius */
+    -fx-border-width: 1; /* Set the border width */
+}
+
+.border-box{
+    -fx-background-radius: 20; /* Set the corner radius */
+    -fx-border-radius: 20; /* Set the border radius */
+    -fx-border-width: 1; /* Set the border width */
+    -fx-border-color: #fff; /* Set the border color */
+    -fx-background-color: #355062;
+}
+
+.mfx-context-menu-button:hover {
+    -fx-background-color: #757575; /* Set the hover background color */
+}
+
+

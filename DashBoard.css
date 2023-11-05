@@ -1,0 +1,90 @@
+.mfx-button {
+    -mfx-background-color: #355062;
+    -mfx-text-fill: white;
+    -mfx-ripple-color: #ffffff;
+    -fx-background-radius: 20;
+}
+
+.center-top-hbox {
+    -fx-background-insets: 20 0 0 0, 20 0 0 0; /* Fill top-right and bottom-right corners with radius 20 */
+    -fx-background-color: #355062; /* Set background color */
+    -fx-background-radius: 30 30 30 30; /* Apply rounded corners */
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.5), 20, 0, 0, 0); /* Add drop shadow with radius 20 */
+    -fx-border-color: transparent transparent transparent transparent; /* Set border color */
+    -fx-min-width: 268; /* Adjust minimum width as needed */
+}
+
+.vbox_background_center {
+    -fx-background-color:   #637484;
+
+}
+
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+/* Set the background color of the ScrollPane content area to black */
+.scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+
+/* Set the background color of the ScrollBars to black */
+.scroll-pane .scroll-bar {
+    -fx-background-color: transparent;
+}
+
+
+/* Set the background and thumb colors of the scrollbar to black */
+.scroll-bar:vertical {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:horizontal {
+    -fx-background-color: transparent;
+}
+
+
+.menu-button {
+    -fx-background-color: transparent;
+    -fx-background-radius: 30;
+
+}
+.menu-button:hover {
+    -fx-background-color: #1976D2; /* Slightly lighter on hover */
+}
+.menu-button .label {
+    -fx-text-fill: white;
+}
+
+.menu-button .menu-item {
+    -fx-text-fill: white; /* Set text color */
+    -fx-background-color: #333333; /* Set background color */
+}
+
+.menu-button .menu-item:selected {
+    -fx-background-color: #555555; /* Set background color on selection */
+}
+
+.menu-button .menu-item:hover {
+    -fx-background-color: #444444; /* Set background color on hover */
+}
+.mfx-button {
+    -fx-text-fill: #fff; /* Set text color to white */
+    -fx-alignment: CENTER_LEFT;
+    -fx-background-color: transparent; /* Set button background color to transparent */
+
+}
+
+.mfx-button:hover {
+    -fx-background-color: #1976D2; /* Change color on hover */
+}
+
+
+
+.mfx-notification-center {
+    -fx-fill: #2196F3; /* Set icon color */
+    -fx-hover-fill: #1976D2; /* Set icon color on hover */
+    -fx-pref-width: 30; /* Set the preferred width */
+    -fx-pref-height: 30; /* Set the preferred height */
+}

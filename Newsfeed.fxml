@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.SocialMediaController"
+      prefHeight="600" prefWidth="800"
+      alignment="TOP_CENTER">
+
+    <!-- Header -->
+    <Label text="Social Media Feed" style="-fx-font-size: 24; -fx-font-weight: bold;"/>
+
+    <!-- Feed Container -->
+    <VBox fx:id="feedContainer" spacing="10" alignment="TOP_CENTER">
+        <!-- Feed Items will be added dynamically from code -->
+    </VBox>
+
+</VBox>
