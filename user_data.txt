@@ -1,0 +1,11 @@
+2231820642,galib,ece,asadullah.galib01@northsouth.edu,01946125814,25,4,123456
+2231820642,asad,ece,gal@nsu.com,01815436792,66,4,456789
+2231820462,Galib,ece,galib@northsouth.com,01946125814,33,3,123456
+2231820642,Galibb,ecee,galivv@gmail.com,01643862659,55,4,147852369
+2231820642,Galibb,ecee,galivv@gmail.com,01643862659,55,4,147852369
+application.UserData@148ba6d1
+2231820666,asdasdas,cse,sdfafda@gmail.com,01913876707,25,4,789456
+2231820642,ooooo,plo,hh@gmail.com,01946125814,25,3,456789
+application.UserData@2879961
+1233455677,Nigga,ECE,niggagay@gmail.com,01010101010,130,4,niggagay
+2525252525,Asadullah Hil Galib,EEE,limastudent@nsu.com,01111111111,25,3,654123
